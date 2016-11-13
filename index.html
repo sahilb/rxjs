@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="Rx.js"></script>
+  
+  
+  <style type="text/css">
+  	.bt {
+  		height: 40px;
+  		border: 0;
+  		background-color: #0088dd;
+  	}
+    .loggingArea {
+      border: 1px solid #e3e3e3;
+      height: 400px;
+      width: 600px;
+    }
+  </style> 
+</head>
+<body>
+
+
+<canvas id='canvas1'  width="400" height="300" style="border:1px solid #e2e2e2;"> </canvas>
+
+<div class='ribbon' style="display:none;"  >
+	<input type="button" class="bt activate" value="Paint" />
+	<input type="button" class="bt deactivate" value="De-Activate" />
+
+
+	<input type="button" class="bt clear" value="Clear" />
+  <input type="color" class="fill-color">  
+</div>
+
+
+<div style="float:left; margin:20px;">
+  <input type="button" class="test-target bt" value="drag it" />
+  <input type="button" class="bt init" value="Init" />
+  <input type="button" class="bt stop" value="Stop" />
+</div>
+
+<div class="loggingArea"></div>
+<script type="text/javascript" src="one.js"></script>
+</body>
+</html>
